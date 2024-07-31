@@ -254,7 +254,7 @@ This should launch a window. When a person is in front of the sensor it will hig
 
 Now the possibilties are endless! Try running the various samples.
 
-<video src='./_assets/kinect-nite.mp4'></video>
+https://github.com/user-attachments/assets/61c1b690-f369-4364-943c-526c0ffd6ace
 
 > **Sample-Boxes**
 > 
@@ -319,7 +319,7 @@ This guide is based on the [guide](https://www.kdab.com/setting-up-kinect-for-pr
 
 ## Overview
 
-<video src='./_assets/kinect-qt.mp4'></video>
+https://github.com/user-attachments/assets/01888417-5334-433a-8910-f2b72cde9a60
 
 > - The grey rectangle on the top of the window is a representation of the Kinect scene.
 > - The white rectangle represents your hand, it has a label attached showing it’s current coordinates. _shake your hand in front of the Kinect for it to be recognized_
