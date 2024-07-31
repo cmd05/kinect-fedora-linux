@@ -163,7 +163,7 @@ chmod +x ./RedistMaker
 Some of the issues I faced while installing SensorKinect:
 
 > **Cannot recognize linker parameter `XnDDK`**:
-> The install script is unable to find `libXnDDK.so`:
+> The install script is unable to find `libXnDDK.so`.
 > 
 > Method 1: Go to `Platform/Linux/Build/` and run `make`. Now rerun `RedistMaker`
 >    
