@@ -369,7 +369,7 @@ Usage: qmake-qt4 [mode] [options] [files]
 
 ### Getting the Source Code
 
-Download the demo application source code from [here](http://www.kdab.com/wp-content/uploads/stories/QtKinectExample.tar.gz) to our `~/KinectLibs` folder which we used in the last guide. Extract the `.tar.gz` file to the same folder. 
+Download the demo application source code from [here](http://www.kdab.com/wp-content/uploads/stories/QtKinectExample.tar.gz) to our `~/KinectLibs` folder which we used during our installation. Extract the `.tar.gz` file to the same folder. 
 
 Now go to the extracted folder:
 
