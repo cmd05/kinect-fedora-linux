@@ -197,7 +197,7 @@ sudo ./install.sh
 > nano RedistMaker
 > ```
 
-As of writing this guide, the sample `NiViewer` does gives compilation errors when running `make` due to a symbol conflict with the standard library. Copy the contents of `glh_linear.h` from [here](https://github.com/EmaroLab/OpenNI/blob/99e5dcc60860ea065bad3afaefb4c4cf7bc98e18/Samples/NiViewer/glh/glh_linear.h)and replace it in `Samples/NiViewer/glh/glh_linear.h`:
+As of writing this guide, the sample `NiViewer` does gives compilation errors when running `make` due to a symbol conflict with the standard library. Copy the contents of `glh_linear.h` from [here](https://github.com/EmaroLab/OpenNI/blob/99e5dcc60860ea065bad3afaefb4c4cf7bc98e18/Samples/NiViewer/glh/glh_linear.h) and replace it in `Samples/NiViewer/glh/glh_linear.h`:
 
 ```bash
 # from OpenNI root directory
@@ -230,7 +230,7 @@ The Sample binaries in OpenNI will not work yet, since we do not have NITE insta
 
 ### Install NITE
 
-Download NITE version 1.5.2 from the Dropbox link mentioned in the Required Software section and extract the `.zip` file.
+Download NITE version 1.5.2 from the Dropbox link mentioned in the [Required Software](#required-software) section and extract the `.zip` file.
 
 ![](./_assets/nite-dropbox.png)
 
