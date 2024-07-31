@@ -417,6 +417,9 @@ aquila@fedora:~/KinectLibs/QtKinectExample$ ./QtKinectExample
 
 Now, the application should launch. Follow the [Overview](#overview) to play around with the application.
 
+![](./_assets/qt-example.png)
+
+
 # Conclusion
 
 This was an exciting (and long!) ride on getting the kinect to work on Fedora. Hopefully, you were able to follow along.
