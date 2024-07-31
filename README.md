@@ -1,7 +1,6 @@
+# Kinect on Fedora Linux
 
-This guide walks through how to setup the Xbox Kinect Sensor on Fedora Linux. I'm currently using Fedora 40 on my PC.
-
-This walkthrough has been inspired by the great guide by KDAB for setting up the Kinect on Ubuntu. You can check it out [here](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/)  
+This guide walks through how to setup the Xbox Kinect Sensor on Fedora Linux. I'm currently using Fedora 40 on my PC. This walkthrough has been inspired by the great guide by KDAB for setting up the Kinect on Ubuntu. You can check it out [here](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/).
 
 # Wiring
 
