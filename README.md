@@ -1,10 +1,12 @@
 # Kinect on Fedora Linux
 
-This guide walks through how to setup the Xbox Kinect Sensor on Fedora Linux. I'm currently using Fedora 40 on my PC. This walkthrough has been inspired by the great guide by KDAB for setting up the Kinect on Ubuntu. You can check it out [here](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/).
+This guide walks through how to setup the Xbox Kinect Sensor on Fedora Linux. It also goes through building our own QT application which uses the Kinect Sensor to detect a push gesture. I'm currently using Fedora 40 on my PC. 
+
+This walkthrough has been inspired by the great guide by KDAB for setting up the Kinect on Ubuntu. You can check it out [here](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-1/).
 
 # Wiring
 
-This [instructable](https://www.instructables.com/Wiring-an-Xbox-Kinect-for-USB/) explains how to simply wire the Xbox Kinect from its custom adaptor to a USB adapter. 
+This [instructable](https://www.instructables.com/Wiring-an-Xbox-Kinect-for-USB/) explains how to wire the Xbox Kinect from its default adapter to a USB adapter.
 
 # Test on Windows (Optional)
 
@@ -314,7 +316,7 @@ We have successfully setup our Kinect on Fedora! (give yourself a pat on the bac
 
 Now that we have our Kinect up and running, we can run our own code to interface with the Kinect and do some interesting stuff.
 
-This guide is based on the [guide](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-2/) by KDAB on running a QT Application which records a "push" gesture from our hand. The guide also explains the code so you can write your own applications for the Kinect.
+This guide is based on the [guide](https://www.kdab.com/setting-up-kinect-for-programming-in-linux-part-2/) by KDAB on running a QT Application which records a 'push' gesture from our hand. The guide also explains the code so you can write your own applications for the Kinect.
 
 ## Overview
 
