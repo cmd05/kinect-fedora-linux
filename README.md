@@ -108,7 +108,7 @@ sudo dnf install jdk-6u32-linux-i586.rpm
 Now, `jdk-6.0` should be installed.
 
 ```bash
-aquila@fedora:~/Downloads/test$ dnf list installed | grep jdk
+aquila@fedora:~/Downloads$ dnf list installed | grep jdk
 copy-jdk-configs.noarch                              4.1-5.fc40                          @anaconda                       
 java-21-openjdk-headless.x86_64                      1:21.0.4.0.7-2.fc40                 @updates                        
 jdk.i586                                             2000:1.6.0_32-fcs                   @System
