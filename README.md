@@ -20,11 +20,15 @@ Reboot the system.
 
 Launch `Kinect Browser`, and go to `Samples (C#)` and press `Run` on the `Kinect Explorer` sample. You will be able to see a window with the depth stream and various settings to control the kinect.
 
-![](./_assets/win-kinect-browser-logo.png)
+Program Name         | Browser
+:-------------------------:|:-------------------------:
+![](./_assets/win-kinect-browser-logo.png) | ![](./_assets/win-kinect-browser.png)
 
-![](./_assets/win-kinect-browser.png)
+<br>
 
-![](./_assets/kinect-browser-win.png)
+<p align="center">
+    <img src="./_assets/kinect-browser-win.png">
+</p>
 
 # Device Recognition
 
@@ -136,7 +140,9 @@ cd build/bin
 ./freenect-glview
 ```
 
-![](./_assets/freenect-glview.png)
+<p align="center">
+    <img src="./_assets/freenect-glview.png" height="500">
+</p>
 
 Try playing around with the different modes:
 
@@ -234,7 +240,9 @@ The Sample binaries in OpenNI will not work yet, since we do not have NITE insta
 
 Download NITE version 1.5.2 from the Dropbox link mentioned in the [Required Software](#required-software) section and extract the `.zip` file.
 
-![](./_assets/nite-dropbox.png)
+<p align="center">
+    <img src="./_assets/nite-dropbox.png">
+</p>
 
 We have installed the `x64` version of OpenNI. So we need the libraries for NITE to be installed to `/usr/lib64` instead of `/usr/lib`. We can do this by replacing all occurrences of `/usr/lib` with `/usr/lib64` using any text editor.
 
@@ -298,7 +306,9 @@ aquila@fedora:~/KinectLibs/OpenNI$ cd Platform/Linux/Bin/x64-Release/
 aquila@fedora:~/KinectLibs/OpenNI/Platform/Linux/Bin/x64-Release$ ./Sample-NiHandTracker
 ```
 
-![](./_assets/openni-hand-tracker.png)
+<p align="center">
+    <img src="./_assets/openni-hand-tracker.png">
+</p>
 
 Trying out `NiViewer`:
 
@@ -308,7 +318,9 @@ aquila@fedora:~/KinectLibs/OpenNI/Platform/Linux/Bin/x64-Release$ ./Sample-NiVie
 
 A depth stream of the scene:
 
-![](./_assets/niviewer-depth-stream.png)
+<p align="center">
+    <img src="./_assets/niviewer-depth-stream.png">
+</p>
 
 We have successfully setup our Kinect on Fedora! (give yourself a pat on the back). Next lets create an application to implement our own ideas to use with the Kinect sensor.
 
@@ -419,8 +431,9 @@ aquila@fedora:~/KinectLibs/QtKinectExample$ ./QtKinectExample
 
 Now, the application should launch. Follow the [Overview](#overview) to play around with the application.
 
-![](./_assets/qt-example.png)
-
+<p align="center">
+    <img src="./_assets/qt-example.png">
+</p>
 
 # Conclusion
 
