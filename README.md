@@ -203,6 +203,8 @@ sudo ./install.sh
 > 
 > If so, edit `RedistMaker` using any text editor, and replace `python` with `python2`:
 > ```bash
+> # Inside the OpenNI directory
+> cd Platform/Linux/CreateRedist
 > nano RedistMaker
 > ```
 
