@@ -73,13 +73,14 @@ We will be using the following libraries for these usecases:
 
 ### I. Software
 
-We will create a directory `KinectLibs` where all our software will be installed.
+We will create a directory `KinectLibs` in our home directory where all our software will be installed.
 
 ```bash
-mkdir KinectLibs; cd KinectLibs
-git clone https://github.com/OpenKinect/libfreenect # download the libraries
-git clone https://github.com/OpenNI/OpenNI
-git clone https://github.com/ph4m/SensorKinect
+cd ~/
+aquila@fedora:~$ mkdir KinectLibs; cd KinectLibs
+aquila@fedora:~$ git clone https://github.com/OpenKinect/libfreenect # download the libraries
+aquila@fedora:~$ git clone https://github.com/OpenNI/OpenNI
+aquila@fedora:~$ git clone https://github.com/ph4m/SensorKinect
 ```
 
 ### II. Packages
