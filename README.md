@@ -51,7 +51,7 @@ In case the devices are not recognized the USB wire maybe faulty (which happened
 
 ## Required Software
 
-We will be using the following libraries for these usecases:
+We will be using the following libraries for setting up the Kinect on Fedora Linux. The installation steps will explain how to install each of the libraries.
 
 1. **freenect** library: To control the LED and the tilt motor
    - [https://openkinect.org/](https://openkinect.org/)
@@ -65,7 +65,8 @@ We will be using the following libraries for these usecases:
    - [https://github.com/ph4m/SensorKinect](https://github.com/ph4m/SensorKinect) (This is a fork of [https://github.com/avin2/SensorKinect](https://github.com/avin2/SensorKinect) with necessary patches)
 
 4. **NITE** (OpenNI compliant Middleware): A higher level library to get hand tracking, and predefined gestures without having to create the algorithms.
-   - The OpenNI middleware binaries are not distributed officially anymore. After experimenting with a few sources for the library, ultimately I used a source available on this [Dropbox](https://www.dropbox.com/scl/fo/1slo8cg9mepod1tp7p0o8/AIdmMcb72lRTvUJegxuwrjc?rlkey=b2dmfvchcfkqoaf8t9rvelotr), based on an answer, [here](https://answers.ros.org/question/9737/openni_tracker-initfromxml-failed-cant-create-any-node-of-the-requested-type/) on the ROS forums.
+   - The OpenNI middleware binaries are not distributed officially anymore. We can use web-archive link to OpenNI's website with the binaries, [here](https://web.archive.org/web/20170706023351/http://www.openni.ru/openni-sdk/openni-sdk-history-2/).
+   - Alternatively we can also use the following [Dropbox Link](https://www.dropbox.com/scl/fo/1slo8cg9mepod1tp7p0o8/AIdmMcb72lRTvUJegxuwrjc?rlkey=b2dmfvchcfkqoaf8t9rvelotr), based on an answer, [here](https://robotics.stackexchange.com/questions/43696/openni-nite-incompatible-in-fuerte-groovy-on-precise/43701#43701) on the ROS forums.
 
 **Note**: It is necessary that the OpenNI and NITE versions are the same. Here we have used version **1.5** for both.
 
@@ -241,11 +242,17 @@ The Sample binaries in OpenNI will not work yet, since we do not have NITE insta
 
 ### Install NITE
 
-Download NITE version 1.5.2 from the Dropbox link mentioned in the [Required Software](#required-software) section and extract the `.zip` file.
+Download NITE version 1.5.2 from the web.archive.org link in the [Required Software](#required-software) section. Select 'Linux-x64' and extract the `.tar.zip` file.
 
 <p align="center">
-    <img src="./_assets/nite-dropbox.png">
+    <img src="./_assets/archive-openni.webp">
 </p>
+
+> If the above binaries from the archived site do not work, you can test the binaries from the Dropbox link:
+>
+> Download NITE version 1.5.2 from the Dropbox link mentioned in the [Required Software](#required-software) section and extract the `.zip` file.
+>
+> ![](./_assets/nite-dropbox.png)
 
 We have installed the `x64` version of OpenNI. So we need the libraries for NITE to be installed to `/usr/lib64` instead of `/usr/lib`. We can do this by replacing all occurrences of `/usr/lib` with `/usr/lib64` using any text editor.
 
